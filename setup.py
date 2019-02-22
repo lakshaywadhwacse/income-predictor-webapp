@@ -34,7 +34,7 @@ def result():
         if int(result)==1:
             return 'Income more than 50K'
         else:
-            return 'Income less that 50K'
+            return 'Income less than 50K'
 
 # if __name__=='__main__':
 # 	app.run(host='0.0.0.0',port=8000,debug=True)
