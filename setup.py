@@ -10,9 +10,9 @@ app=Flask(__name__)
 
 #to tell flask what url shoud trigger the function index()
 @app.route('/')
-@app.route('/index')
-def index():
-    return flask.render_template('index.php')
+@app.route('/home')
+def home():
+    return flask.render_template('home.html')
 
 
 #prediction function
@@ -36,5 +36,5 @@ def result():
         else:
             return 'Income less than 50K'
 
-# if __name__=='__main__':
-# 	app.run(host='0.0.0.0',port=8000,debug=True)
+if __name__=='__main__':
+	app.run(host='0.0.0.0',port=5000,debug=True)
