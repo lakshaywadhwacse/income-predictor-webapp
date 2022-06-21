@@ -3,7 +3,7 @@ fastai==1.0.4
 Flask==1.0.2
 gunicorn==19.9.0
 h5py==2.9.0
-numpy==1.16.1
+numpy==1.22.0
 pandas==0.24.0
 Pillow==5.4.1
 regex==2018.1.10
